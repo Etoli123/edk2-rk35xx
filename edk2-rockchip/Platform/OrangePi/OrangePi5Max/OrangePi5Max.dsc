@@ -28,7 +28,7 @@
   RK_PLATFORM_FVMAIN_MODULES     = $(PLATFORM_DIRECTORY)/$(PLATFORM_NAME).Modules.fdf.inc
 
   # GMAC is not exposed
-  DEFINE RK3588_GMAC_ENABLE = FALSE
+  DEFINE RK3588_GMAC_ENABLE = TRUE
 
   #
   # HYM8563 RTC support
@@ -77,9 +77,9 @@
   #
   # PCIe/SATA/USB Combo PIPE PHY support flags and default values
   #
-  gRK3588TokenSpaceGuid.PcdComboPhy0Switchable|FALSE
-  gRK3588TokenSpaceGuid.PcdComboPhy1Switchable|FALSE
-  gRK3588TokenSpaceGuid.PcdComboPhy2Switchable|FALSE
+  gRK3588TokenSpaceGuid.PcdComboPhy0Switchable|TRUE
+  gRK3588TokenSpaceGuid.PcdComboPhy1Switchable|TRUE
+  gRK3588TokenSpaceGuid.PcdComboPhy2Switchable|TRUE
   gRK3588TokenSpaceGuid.PcdComboPhy0ModeDefault|$(COMBO_PHY_MODE_PCIE)
   gRK3588TokenSpaceGuid.PcdComboPhy1ModeDefault|$(COMBO_PHY_MODE_PCIE)
   gRK3588TokenSpaceGuid.PcdComboPhy2ModeDefault|$(COMBO_PHY_MODE_PCIE)
