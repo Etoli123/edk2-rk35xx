@@ -233,7 +233,7 @@ formset
           option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM), value = CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM, flags = 0;
         endoneof;
 
-        grayoutif NOT ideqval CpuPerf_CPULClusterClockPreset.Preset == CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM;
+        //grayoutif NOT ideqval CpuPerf_CPULClusterClockPreset.Preset == CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM;
           oneof varid = CpuPerf_CPULClusterClockCustom.Mhz,
             prompt      = STRING_TOKEN(STR_CPU_PERF_CPUL_CLUSTER_CLOCK_CUSTOM_PROMPT),
             help        = STRING_TOKEN(STR_CPU_PERF_CPUL_CLUSTER_CLOCK_CUSTOM_HELP),
@@ -247,7 +247,7 @@ formset
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_1608), value = 1608, flags = 0;
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_1800), value = 1800, flags = DEFAULT;
           endoneof;
-        endif;
+        //endif;
 
         oneof varid = CpuPerf_CPUB01ClusterClockPreset.Preset,
           prompt      = STRING_TOKEN(STR_CPU_PERF_CPUB01_CLUSTER_CLOCK_PRESET_PROMPT),
@@ -260,7 +260,7 @@ formset
           option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM), value = CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM, flags = 0;
         endoneof;
 
-        grayoutif NOT ideqval CpuPerf_CPUB01ClusterClockPreset.Preset == CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM;
+        //grayoutif NOT ideqval CpuPerf_CPUB01ClusterClockPreset.Preset == CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM;
           oneof varid = CpuPerf_CPUB01ClusterClockCustom.Mhz,
             prompt      = STRING_TOKEN(STR_CPU_PERF_CPUB01_CLUSTER_CLOCK_CUSTOM_PROMPT),
             help        = STRING_TOKEN(STR_CPU_PERF_CPUB_CLUSTER_CLOCK_CUSTOM_HELP),
@@ -280,7 +280,7 @@ formset
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2352), value = 2352, flags = 0;
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2400), value = 2400, flags = DEFAULT;
           endoneof;
-        endif;
+        //endif;
 
         oneof varid = CpuPerf_CPUB23ClusterClockPreset.Preset,
           prompt      = STRING_TOKEN(STR_CPU_PERF_CPUB23_CLUSTER_CLOCK_PRESET_PROMPT),
@@ -293,7 +293,7 @@ formset
           option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM), value = CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM, flags = 0;
         endoneof;
 
-        grayoutif NOT ideqval CpuPerf_CPUB23ClusterClockPreset.Preset == CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM;
+        //grayoutif NOT ideqval CpuPerf_CPUB23ClusterClockPreset.Preset == CPU_PERF_CLUSTER_CLOCK_PRESET_CUSTOM;
           oneof varid = CpuPerf_CPUB23ClusterClockCustom.Mhz,
             prompt      = STRING_TOKEN(STR_CPU_PERF_CPUB23_CLUSTER_CLOCK_CUSTOM_PROMPT),
             help        = STRING_TOKEN(STR_CPU_PERF_CPUB_CLUSTER_CLOCK_CUSTOM_HELP),
@@ -313,7 +313,7 @@ formset
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2352), value = 2352, flags = 0;
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2400), value = 2400, flags = DEFAULT;
           endoneof;
-        endif;
+        //endif;
 
         subtitle text = STRING_TOKEN(STR_NULL_STRING);
         subtitle text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_VOLTAGES_SUBTITLE);
@@ -326,7 +326,7 @@ formset
           option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM), value = CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM, flags = 0;
         endoneof;
 
-        grayoutif NOT ideqval CpuPerf_CPULClusterVoltageMode.Mode == CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM;
+        //grayoutif NOT ideqval CpuPerf_CPULClusterVoltageMode.Mode == CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM;
           numeric varid = CpuPerf_CPULClusterVoltageCustom.Microvolts,
             prompt  = STRING_TOKEN(STR_CPU_PERF_CPUL_CLUSTER_VOLTAGE_CUSTOM_PROMPT),
             help    = STRING_TOKEN(STR_CPU_PERF_CPUL_CLUSTER_VOLTAGE_CUSTOM_HELP),
@@ -336,7 +336,7 @@ formset
             step = CLUSTER_MICROVOLTS_STEP,
             default = CPUL_CLUSTER_MICROVOLTS_DEFAULT,
           endnumeric;
-        endif;
+        //endif;
 
         oneof varid = CpuPerf_CPUB01ClusterVoltageMode.Mode,
           prompt      = STRING_TOKEN(STR_CPU_PERF_CPUB01_CLUSTER_VOLTAGE_MODE_PROMPT),
@@ -346,7 +346,7 @@ formset
           option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM), value = CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM, flags = 0;
         endoneof;
 
-        grayoutif NOT ideqval CpuPerf_CPUB01ClusterVoltageMode.Mode == CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM;
+        //grayoutif NOT ideqval CpuPerf_CPUB01ClusterVoltageMode.Mode == CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM;
           numeric varid = CpuPerf_CPUB01ClusterVoltageCustom.Microvolts,
             prompt  = STRING_TOKEN(STR_CPU_PERF_CPUB01_CLUSTER_VOLTAGE_CUSTOM_PROMPT),
             help    = STRING_TOKEN(STR_CPU_PERF_CPUB_CLUSTER_VOLTAGE_CUSTOM_HELP),
@@ -356,7 +356,7 @@ formset
             step = CLUSTER_MICROVOLTS_STEP,
             default = CPUB_CLUSTER_MICROVOLTS_DEFAULT,
           endnumeric;
-        endif;
+        //endif;
 
         oneof varid = CpuPerf_CPUB23ClusterVoltageMode.Mode,
           prompt      = STRING_TOKEN(STR_CPU_PERF_CPUB23_CLUSTER_VOLTAGE_MODE_PROMPT),
@@ -366,7 +366,7 @@ formset
           option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM), value = CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM, flags = 0;
         endoneof;
 
-        grayoutif NOT ideqval CpuPerf_CPUB23ClusterVoltageMode.Mode == CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM;
+        //grayoutif NOT ideqval CpuPerf_CPUB23ClusterVoltageMode.Mode == CPU_PERF_CLUSTER_VOLTAGE_MODE_CUSTOM;
           numeric varid = CpuPerf_CPUB23ClusterVoltageCustom.Microvolts,
             prompt  = STRING_TOKEN(STR_CPU_PERF_CPUB23_CLUSTER_VOLTAGE_CUSTOM_PROMPT),
             help    = STRING_TOKEN(STR_CPU_PERF_CPUB_CLUSTER_VOLTAGE_CUSTOM_HELP),
@@ -376,7 +376,7 @@ formset
             step = CLUSTER_MICROVOLTS_STEP,
             default = CPUB_CLUSTER_MICROVOLTS_DEFAULT,
           endnumeric;
-        endif;
+        //endif;
 
         subtitle text = STRING_TOKEN(STR_NULL_STRING);
         subtitle text = STRING_TOKEN(STR_CPU_PERF_FORM_SUBTITLE);
@@ -385,7 +385,7 @@ formset
     form formid = 0x1001,
         title  = STRING_TOKEN(STR_COMBO_PHY_FORM_TITLE);
 
-        grayoutif FixedPcdGetBool (PcdComboPhy0Switchable) == 0;
+        //grayoutif FixedPcdGetBool (PcdComboPhy0Switchable) == 0;
           oneof varid = ComboPhy0Mode.Mode,
             prompt      = STRING_TOKEN(STR_COMBO_PHY0_MODE_PROMPT),
 #if   FixedPcdGet32 (PcdComboPhy0ModeDefault) == COMBO_PHY_MODE_PCIE
@@ -403,9 +403,9 @@ formset
             option text = STRING_TOKEN(STR_COMBO_PHY_MODE_PCIE), value = COMBO_PHY_MODE_PCIE, flags = 0;
             option text = STRING_TOKEN(STR_COMBO_PHY_MODE_SATA), value = COMBO_PHY_MODE_SATA, flags = 0;
           endoneof;
-        endif;
+        //endif;
 
-        grayoutif FixedPcdGetBool (PcdComboPhy1Switchable) == 0;
+        //grayoutif FixedPcdGetBool (PcdComboPhy1Switchable) == 0;
           oneof varid = ComboPhy1Mode.Mode,
             prompt      = STRING_TOKEN(STR_COMBO_PHY1_MODE_PROMPT),
 #if   FixedPcdGet32 (PcdComboPhy1ModeDefault) == COMBO_PHY_MODE_PCIE
@@ -423,9 +423,9 @@ formset
             option text = STRING_TOKEN(STR_COMBO_PHY_MODE_PCIE), value = COMBO_PHY_MODE_PCIE, flags = 0;
             option text = STRING_TOKEN(STR_COMBO_PHY_MODE_SATA), value = COMBO_PHY_MODE_SATA, flags = 0;
           endoneof;
-        endif;
+        //endif;
 
-        grayoutif FixedPcdGetBool (PcdComboPhy2Switchable) == 0;
+        //grayoutif FixedPcdGetBool (PcdComboPhy2Switchable) == 0;
           oneof varid = ComboPhy2Mode.Mode,
             prompt      = STRING_TOKEN(STR_COMBO_PHY2_MODE_PROMPT),
 #if   FixedPcdGet32 (PcdComboPhy2ModeDefault) == COMBO_PHY_MODE_PCIE
@@ -444,7 +444,7 @@ formset
             option text = STRING_TOKEN(STR_COMBO_PHY_MODE_SATA), value = COMBO_PHY_MODE_SATA, flags = 0;
             option text = STRING_TOKEN(STR_COMBO_PHY_MODE_USB3), value = COMBO_PHY_MODE_USB3, flags = 0;
           endoneof;
-        endif;
+        //endif;
 
         subtitle text = STRING_TOKEN(STR_NULL_STRING);
         subtitle text = STRING_TOKEN(STR_COMBO_PHY_FORM_SUBTITLE);
@@ -489,7 +489,7 @@ formset
           option text = STRING_TOKEN(STR_ENABLED), value = PCIE30_STATE_ENABLED, flags = 0;
         endoneof;
 
-        grayoutif FixedPcdGetBool (PcdPcie30PhyModeSwitchable) == 0;
+        //grayoutif FixedPcdGetBool (PcdPcie30PhyModeSwitchable) == 0;
           oneof varid = Pcie30PhyMode.Mode,
             prompt      = STRING_TOKEN(STR_PCIE30_PHY_MODE_PROMPT),
             help        = STRING_TOKEN(STR_PCIE30_PHY_MODE_HELP),
@@ -501,7 +501,7 @@ formset
             option text = STRING_TOKEN(STR_PCIE30_PHY_MODE_NABINB), value = PCIE30_PHY_MODE_NABINB, flags = 0;
             option text = STRING_TOKEN(STR_PCIE30_PHY_MODE_NABIBI), value = PCIE30_PHY_MODE_NABIBI, flags = 0;
           endoneof;
-        endif;
+        //endif;
     endform;
 #endif
 
@@ -540,7 +540,7 @@ formset
           subtitle text = STRING_TOKEN(STR_CONFIG_TABLE_FDT_SUBTITLE);
 
           suppressif ideqval FdtCompatModeVendorSupported == 0 AND ideqval FdtCompatModeMainlineSupported == 0;
-          grayoutif  ideqval FdtCompatModeVendorSupported == 0 OR ideqval FdtCompatModeMainlineSupported == 0;
+          //grayoutif  ideqval FdtCompatModeVendorSupported == 0 OR ideqval FdtCompatModeMainlineSupported == 0;
             oneof varid = FdtCompatMode.Mode,
               prompt      = STRING_TOKEN(STR_FDT_COMPAT_MODE_PROMPT),
               help        = STRING_TOKEN(STR_FDT_COMPAT_MODE_HELP),
@@ -551,7 +551,7 @@ formset
             endoneof;
             subtitle text = STRING_TOKEN(STR_NULL_STRING);
           endif;
-          endif;
+          //endif;
 
           suppressif get(FdtCompatMode.Mode) != FDT_COMPAT_MODE_MAINLINE;
             oneof varid = FdtForceGop.State,
@@ -589,7 +589,7 @@ formset
           option text = STRING_TOKEN(STR_ENABLED), value = COOLING_FAN_STATE_ENABLED, flags = 0;
         endoneof;
 
-        grayoutif NOT ideqval CoolingFanState.State == COOLING_FAN_STATE_ENABLED;
+        //grayoutif NOT ideqval CoolingFanState.State == COOLING_FAN_STATE_ENABLED;
           numeric varid = CoolingFanSpeed.Percentage,
             prompt  = STRING_TOKEN(STR_COOLING_FAN_SPEED_PROMPT),
             help    = STRING_TOKEN(STR_COOLING_FAN_SPEED_PROMPT),
@@ -599,7 +599,7 @@ formset
             step = FAN_PERCENTAGE_STEP,
             default = FAN_PERCENTAGE_DEFAULT,
           endnumeric;
-        endif;
+        //endif;
     endform;
 #endif
 
