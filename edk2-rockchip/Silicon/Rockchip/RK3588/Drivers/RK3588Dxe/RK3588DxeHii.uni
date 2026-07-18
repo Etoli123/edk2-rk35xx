@@ -55,13 +55,13 @@
 #string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_1200             #language en-US "1200"
 #string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_1416             #language en-US "1416"
 #string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_1608             #language en-US "1608"
-#string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2222             #language en-US "2222"
+#string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_1800             #language en-US "1800"
 #string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2016             #language en-US "2016"
 #string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2208             #language en-US "2208"
 #string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2256             #language en-US "2256"
 #string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2304             #language en-US "2304"
 #string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2352             #language en-US "2352"
-#string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2555             #language en-US "2555"
+#string STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2400             #language en-US "2400"
 
 #string STR_CPU_PERF_CLUSTER_VOLTAGES_SUBTITLE             #language en-US "Cluster Voltages"
 
