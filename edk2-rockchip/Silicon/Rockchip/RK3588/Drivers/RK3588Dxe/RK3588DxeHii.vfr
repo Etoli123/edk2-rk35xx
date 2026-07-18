@@ -245,7 +245,7 @@ formset
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_1200), value = 1200, flags = 0;
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_1416), value = 1416, flags = 0;
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_1608), value = 1608, flags = 0;
-            option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2222), value = 2222, flags = DEFAULT;
+            option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_1800), value = 1800, flags = DEFAULT;
           endoneof;
         //endif;
 
@@ -278,7 +278,7 @@ formset
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2256), value = 2256, flags = 0;
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2304), value = 2304, flags = 0;
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2352), value = 2352, flags = 0;
-            option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2555), value = 2555, flags = DEFAULT;
+            option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2400), value = 2400, flags = DEFAULT;
           endoneof;
         //endif;
 
@@ -311,7 +311,7 @@ formset
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2256), value = 2256, flags = 0;
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2304), value = 2304, flags = 0;
             option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2352), value = 2352, flags = 0;
-            option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2555), value = 2555, flags = DEFAULT;
+            option text = STRING_TOKEN(STR_CPU_PERF_CLUSTER_CLOCK_CUSTOM_2400), value = 2400, flags = DEFAULT;
           endoneof;
         //endif;
 
