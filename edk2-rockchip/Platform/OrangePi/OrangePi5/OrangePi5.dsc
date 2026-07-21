@@ -14,7 +14,7 @@
 #
 ################################################################################
 [Defines]
-  PLATFORM_NAME                  = OrangePi5max
+  PLATFORM_NAME                  = OrangePi5
   PLATFORM_VENDOR                = OrangePi
   PLATFORM_GUID                  = e6443926-7196-4fc4-9554-91fc1fb34256
   PLATFORM_VERSION               = 0.2
