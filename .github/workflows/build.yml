@@ -23,7 +23,7 @@ jobs:
     strategy:
       matrix:
         PLATFORM:
-          - orangepi-5-max
+          - orangepi-5
         CONFIGURATION: ${{ fromJSON(format('[{0}]', inputs.build-configs || '"Debug"')) }}
     steps:
       - name: Checkout
